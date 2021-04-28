@@ -16,7 +16,7 @@ describe('classe Fornecedor', () => {
     const fornecedor = new Fornecedor({
       empresa: 'Testes de Fornecedor',
       email: 'email@qualque3r.com',
-      categoria: 'brinquedos'
+      categoria: 'brinquedo'
     })
     await fornecedor.criar()
     expect(fornecedor.id).toBe(500)
